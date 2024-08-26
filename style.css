@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background-color: brown;
+    color: white;
+}
+.navbar{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+@font-face {
+    font-family: "lemon-milk";
+    src: url('./LEMONMILK-Regular.otf');
+}
+.nike-logo{
+    width: 70px;
+    height: 40px;
+    margin-left: 8%;
+    cursor:pointer;
+}
+.items{
+    margin-left: 20%;
+    display: flex;
+}
+li{
+    margin-left: 20px;
+    list-style-type: none;
+    font-size: 12px;
+    font-family: 'lemon-milk';
+    font-weight: 400;
+    cursor:pointer;
+}
+li:hover{
+    text-decoration: 1px solid black underline;
+}
+.button{
+    margin-left: 30%;
+    height: 25px;
+    width: 65px;
+    border: none;
+    color: white;
+    background-color: rgb(240, 76, 76);
+    cursor:pointer;
+    font-weight: 800;
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: rgb(240, 76, 76);
+}
+.left-container{
+/* border: 1px solid black; */
+margin-left: 120px;
+width: 550px;
+line-height: 1.1;
+margin-top: 20px;
+}
+.main-text{
+    color: black;
+    font-family: 'lemon-milk';
+    font-size: 85px;
+    font-weight: 900;
+}
+.text-container{
+    font-size: 14px;
+    font-family: 'lemon-milk';
+    width: 370px;
+    /* border: 1px solid black; */
+}
+.text{
+    margin-top: 20px;
+    line-height: 1.5;
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+}
+.buttons{
+    margin-top: 10px;
+display: flex;
+}
+.shop-button{
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    font-weight: 750;
+    cursor: pointer;
+}
+.shop-button:hover{
+    background-color: white;
+    color: rgb(240, 76, 76);
+    border: 1px solid black;
+}
+.category-button{
+    border: none;
+    font-size: 15px;
+    color:rgb(67, 64, 64);
+    border: 1px solid black;
+    background-color: white;
+    font-weight: 750;
+    margin-left: 25px;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+.category-button:hover{
+    background-color: rgb(67, 64, 64);
+    color: white;
+}
+.icons-box{
+    width: 200px;
+    height: 50px;
+}
+.logos{
+    margin-left: -10px;
+    display: flex;
+}
+.flip-kart-logo{
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+}
+.amazon-logo{
+    width: 30px;
+    height:30px;
+    cursor: pointer;
+}
+.right-container{
+    margin-top: -65%;
+    display: inline-block;
+    margin-left: 50%;
+}
+.nike-shoe{
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(10px 10px 20px rgb(87, 86, 86));
+}
